@@ -40,7 +40,7 @@ seven_segment_refresh : process (i_clk)
 
 end process seven_segment_refresh;
 
-LED_activation_counter <= refresh_counter (18 downto 17);      --@ 60mHz we required 150 000 clock cycles for 2.5ms refresh period per 7segg LED 
+LED_activation_counter <= refresh_counter (17 downto 16);      --@ 60mHz we required 150 000 clock cycles for 2.5ms refresh period per 7segg LED 
 
 seven_segment_pattern : process(LED_pattern_BCD)
 
