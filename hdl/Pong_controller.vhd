@@ -86,9 +86,11 @@ Pong_Game_SM : process(i_clk,i_game_start, i_left_score_trigger, i_right_score_t
                 var_Pong_SM <= idle; 
                 
             when others =>
-             
+                
+                P1_score <= 0;
+                P2_score <= 0;
                 var_Pong_SM <= idle; 
-
+              
             end case; 
         end if; 
     
