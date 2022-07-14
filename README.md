@@ -4,8 +4,7 @@ Tested on Vivado 2021.1.1
 
 Run from TCL command line from project root using command "source pong_game.tcl" to build project. 
 
-
-
+***
 
 This is a small "Pong" inspired tennis game I created based on a university project from my Digital System Engineering course. The game is displayed at 640x480/60Hz through VGA. The joypad buttons controls both left and right tennis paddles. The seven segment display shows the score of each player from 0-9. 
 
